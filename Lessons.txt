@@ -1,0 +1,10 @@
+Lesson 1
+https://youtu.be/CfqX2_xY8VQ?list=RDCMUCCXF68Da_ndcmvv_9OG75Cw&t=4
+00 : 00
+
+instal Python
+
+https://www.python.org/downloads/
+
+Программа PyCharm: https://www.jetbrains.com/ru-ru/pycharm/
+
