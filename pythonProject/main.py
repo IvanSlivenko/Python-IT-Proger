@@ -1,39 +1,64 @@
-#----------------------------------------------
-# nums = [5,7,2,5,4,5,6,True,"text", 6.5, [5,7]]
-# print(nums)
-# nums[0]=50
-# nums[7]= "seven"
-# print(nums)
-#-----------------------------------------------
-# nums = [5,7,2,5,4,5,6,True,"text", 6.5, [5,7]]
+# word ="itprogger"
+# print("word", word)
+# print("word[1]", word[1])
+#
+# print("word", word)
+# print("len(word)", len(word))
+#
+# print("word", word)
+# print("word.count('g')", word.count('g'))
+#
+# print("word", word)
+# print("word.upper()", word.upper())
+#
+# print("word", word)
+#
+# uperWord = word.upper()
+# print("uperWord", uperWord)
+# print("uperWord.lower()", uperWord.lower())
+#
+# print("word", word)
+# print("word.isupper()", word.isupper())
+#
+# print("word", word)
+# print("word.islower()", word.islower())
+#
+# print("word", word)
+# print("word.capitalize()", word.capitalize())
+#
+# print("word", word)
+# print("word.find(\"p\")", word.find("p"))
 
-#-------------  last element --------------------
-# print(nums[-1])
-# print(nums[-1][1])
-#------------------------------------------------
-numbers = [5,2,7]
-print("numbers",numbers)
-numbers.append(100)
-print("numbers.append(100)",numbers)
-numbers.insert(1,True)
-print("numbers.insert(1,True)",numbers)
-numbers.extend([5, 6, 7])
-print("numbers.extend([5, 6, 7])", numbers)
+# wordTwo = "Footbal, basketball, skate"
+# print("wordTwo ", wordTwo)
+# hobby = wordTwo.split(', ')
+# print("wordTwo.split(',')", hobby)
+# print("hobby[1]", hobby[1])
+#
+# for i in range(len(hobby)):
+#     hobby[i] = hobby[i].capitalize()
+#
+# print("hobby", hobby)
+#
+# result = ", ".join(hobby)
+# print("result = ", ".join(hobby) = ", result)
+#-------------------------------------------------
+#------------------- index -----------------------
 
-b = [4, 5, 6]
-print("b",b)
-numbers.extend(b)
-print("numbers.extend(b)",numbers)
-numbers.sort()
-print("numbers.sort()",numbers)
-numbers.reverse()
-print("numbers.reverse()",numbers)
-numbers.pop()
-print("numbers.pop()",numbers)
-numbers.pop(0)
-print("numbers.pop(0)",numbers)
-numbers.pop(-2)
-print("numbers.pop(-2)",numbers)
-numbers.remove(7)
-print("numbers.remove(7)", numbers)
+newWord = "Football"
+res = newWord[4:int(len(newWord))]
+print("res", res)
+
+newWord = "Football"
+res = newWord[4:]
+print("res", res)
+
+newWord = "Football"
+res = newWord[4:-1]
+print("res", res)
+
+
+
+
+
 
