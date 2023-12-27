@@ -1,4 +1,6 @@
+# --- Умови та цикли ---
 
+# range(індекс початку, індекс закінчення, крок)
 #-----------------------------
 # for i in range(7):
 #     if i > 0:
@@ -53,22 +55,20 @@
 #         print("you are not logged in")
 
 #----------------------------------
-# for i in range(1, 11):
-#     if i >= 10:
-#         break
-#
-#     if i %  2 == 0:
-#         continue
-#     print(i)
-#-------------------------------------
-found= None
-for i in "hello":
-
-    if i == "l":
-        found = True
+for i in range(1, 11):
+    if i >= 10:
         break
-else:
-    found = False
-print(found)
-
-
+# i % 2 --- ділення на 2 без дробових результатів
+    if i %  2 == 0:
+        continue
+    print(i)
+#-------------------------------------
+# found= None
+# for i in "hello":
+#
+#     if i == "l":
+#         found = True
+#         break
+# else:
+#     found = False
+# print(found)

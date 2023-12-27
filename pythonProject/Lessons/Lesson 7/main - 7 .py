@@ -1,5 +1,6 @@
+# Lessons 7
 #----------------------------------------------
-# nums = [5,7,2,5,4,5,6,True,"text", 6.5, [5,7]]
+nums = [5,7,2,5,4,5,6,True,"text", 6.5, [5,7]]
 # print(nums)
 # nums[0]=50
 # nums[7]= "seven"
@@ -11,7 +12,7 @@
 # print(nums[-1])
 # print(nums[-1][1])
 #------------------------------------------------
-# numbers = [5,2,7]
+numbers = [5,2,7]
 # print("numbers",numbers)
 # numbers.append(100)
 # print("numbers.append(100)",numbers)
@@ -19,7 +20,7 @@
 # print("numbers.insert(1,True)",numbers)
 # numbers.extend([5, 6, 7])
 # print("numbers.extend([5, 6, 7])", numbers)
-#
+# #
 # b = [4, 5, 6]
 # print("b",b)
 # numbers.extend(b)
@@ -36,12 +37,12 @@
 # print("numbers.pop(-2)",numbers)
 # numbers.remove(7)
 # print("numbers.remove(7)", numbers)
-# # numbers.clear()
-# # print("numbers.clear()", numbers)
+# numbers.clear()
+# print("numbers.clear()", numbers)
+print("numbers",numbers)
+print("numbers.count(5)", numbers.count(5))
 # print("numbers",numbers)
-# print("numbers.count(5)", numbers.count(5))
-# print("numbers",numbers)
-# print("len(numbers)", len(numbers))
+print("len(numbers)", len(numbers))
 #--------------------------------------------------
 
 # nums = [5, 2, 7, "50", False]
@@ -68,15 +69,18 @@
 # print("user_list ",user_List)
 # ------------------------------------------------
 
-n = int(input("Enter length: "))
-i = 0
-user_List = []
+# n = int(input("Enter length: "))
+# i = 0
+# user_List = []
+#
+# while i < n:
+#     string = "Enter element # " + str(i + 1) + ": "
+#     user_List.append(input(string))
+#     print("user_list ", user_List)
+#     i += 1
 
-while i < n:
-    string = "Enter element # " + str(i + 1) + ": "
-    user_List.append(input(string))
-    print("user_list ", user_List)
-    i += 1
+
+
 
 
 
