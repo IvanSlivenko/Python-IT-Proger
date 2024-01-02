@@ -14,7 +14,7 @@
 
 # ///////////////////
 number = 5 # int
-digit= 4.52363 # float
+digit = 4.52363 # float
 word= "Результат : " # string
 boolean = False # bool
 str_num= '5' # string

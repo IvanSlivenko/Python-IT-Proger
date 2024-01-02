@@ -5,33 +5,39 @@
 #
 # print("word", word)
 # print("len(word)", len(word))
-#
+# ----------------------------------------------------Рахуємо кількість символів
 # print("word", word)
 # print("word.count('g')", word.count('g'))
-#
+#---------------------------------------------------- Переводимо у верхній регістр
 # print("word", word)
 # print("word.upper()", word.upper())
 #
 # print("word", word)
-#
+#------------------------------------------------------Переводимо у нижній регістр
 # uperWord = word.upper()
 # print("uperWord", uperWord)
 # print("uperWord.lower()", uperWord.lower())
 #
+
+# False or True
 # print("word", word)
 # print("word.isupper()", word.isupper())
-#
+
+# False or True
 # print("word", word)
 # print("word.islower()", word.islower())
 #
 # print("word", word)
 # print("word.capitalize()", word.capitalize())
 #
+# --------------------------------------------------Захуємо - скільки разів зустрічається символ
 # print("word", word)
 # print("word.find(\"p\")", word.find("p"))
 
 # wordTwo = "Footbal, basketball, skate"
 # print("wordTwo ", wordTwo)
+
+# --------------------------------------------------Переводимо стрічку у список
 # hobby = wordTwo.split(', ')
 # print("wordTwo.split(',')", hobby)
 # print("hobby[1]", hobby[1])
@@ -41,6 +47,7 @@
 #
 # print("hobby", hobby)
 #
+# -------------------------------------------------Переводимо список у стрічку
 # result = ", ".join(hobby)
 # print("result = ", ".join(hobby) = ", result)
 #-------------------------------------------------

@@ -1,6 +1,6 @@
 Lesson 10
 https://youtu.be/W2oO1Y-QDzo?t=5
-00 : 00
+14 : 40
 
 [] - списки
 () - Кортежі
